@@ -1,11 +1,9 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Feb 07 2023 20:16:44 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Feb 07 2023 23:33:35 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63cfad8ec43ad366d0ff2528" data-wf-site="63cfad8ec43ad340dcff2519">
 <head>
   <meta charset="utf-8">
   <title>freeflow</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/freeflow-c86b38.webflow.css" rel="stylesheet" type="text/css">
@@ -15,7 +13,7 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["Questrial:regular:latin,latin-ext"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>
 [text-split] {opacity: 0;}
@@ -47,12 +45,6 @@ html.w-editor [text-split] {opacity: 1;}
 </style>
 </head>
 <body class="body">
-  <div class="video">
-    <div data-poster-url="videos/Reel-poster-00001.jpg" data-video-urls="videos/Reel-transcode.mp4,videos/Reel-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video w-background-video w-background-video-atom"><video id="b6e9a144-5d62-52ac-dcf4-de054215b0c4-video" autoplay="" loop="" style="background-image:url(&quot;videos/Reel-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-        <source src="videos/Reel-transcode.mp4" data-wf-ignore="true">
-        <source src="videos/Reel-transcode.webm" data-wf-ignore="true">
-      </video></div>
-  </div>
   <div class="global_symbol">
     <div class="global_embed w-embed">
       <style>
@@ -128,53 +120,6 @@ height: 100vh !important;
 }
 </style>
   </div>
-  <div class="video-bg-div bg-vid-2">
-    <div class="wrapper">
-      <div class="html-embed w-embed w-iframe"><iframe src="https://player.vimeo.com/video/673417757?api=1&background=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
-    </div>
-  </div>
-  <div class="video-bg-div vide-bg-1 hide">
-    <div class="is--hero">
-      <div class="text--on-bg">
-        <div class="bg-tag">
-          <p class="paragraph">elevate your brand with</p>
-        </div>
-        <h1 class="heading">freeflow</h1>
-        <div class="typing-wrapper">
-          <div class="typedjs"></div>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper"></div>
-    <div class="full-width-height">
-      <div class="height-container">
-        <div class="player">
-          <div class="html-embed w-embed w-iframe"><iframe id="vimeoplayer" src="https://player.vimeo.com/video/673417757?api=1&amp;background=1" style="width: 90em; height: 51em; left: 0px; top: 0px;" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}" class="background-video ready"></iframe></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="video-bg-div vide-bg-1 hide">
-    <div class="is--hero">
-      <div class="text--on-bg">
-        <div class="bg-tag">
-          <p class="paragraph">elevate your brand with</p>
-        </div>
-        <h1 class="heading">freeflow</h1>
-        <div class="typing-wrapper">
-          <div class="typedjs"></div>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper"></div>
-    <div class="full-width-height">
-      <div class="height-container">
-        <div class="player">
-          <div class="html-embed w-embed w-iframe"><iframe id="vimeoplayer" src="https://player.vimeo.com/video/673417757?api=1&amp;background=1" style="width: 90em; height: 51em; left: 0px; top: 0px;" bis_size="{&quot;x&quot;:0,&quot;y&quot;:0,&quot;w&quot;:0,&quot;h&quot;:0,&quot;abs_x&quot;:0,&quot;abs_y&quot;:0}" class="background-video ready"></iframe></div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
     <div class="container is--navbar w-container">
       <div class="div-block">
@@ -182,25 +127,34 @@ height: 100vh !important;
           <p class="text-size-h4 logo">FREEFLOW</p>
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
-          <a href="#" class="text-size-h4 w-nav-link">Work</a>
-          <a href="#" class="text-size-h4 w-nav-link">Services</a>
-          <a href="#" class="nav-link text-size-h4 w-nav-link">Contact</a>
+          <a href="#services" class="text-size-h4 w-nav-link">Services</a>
+          <a href="#work" class="text-size-h4 w-nav-link">Work</a>
+          <a href="#contact" class="nav-link text-size-h4 w-nav-link">Contact</a>
         </nav>
       </div>
-      <div class="w-nav-button">
+      <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="is--hero is-hero2">
-    <div class="text--on-bg">
-      <div class="bg-tag">
-        <p class="paragraph">elevate your brand with</p>
+  <div class="video-bg-div">
+    <div class="is--hero">
+      <div class="text--on-bg">
+        <div class="bg-tag">
+          <p class="paragraph">elevate your brand with</p>
+        </div>
+        <div class="typetext">
+          <div class="typing-wrapper">
+            <div class="typedjs"></div>
+          </div>
+        </div>
       </div>
-      <h1 class="heading">freeflow</h1>
-      <div class="typing-wrapper">
-        <div class="typedjs"></div>
-      </div>
+    </div>
+    <div class="video-div">
+      <div data-poster-url="videos/Reel-poster-00001.jpg" data-video-urls="videos/Reel-transcode.mp4,videos/Reel-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video w-background-video w-background-video-atom"><video id="d9c5e361-c089-a683-c9f3-e45d52137ae7-video" autoplay="" loop="" style="background-image:url(&quot;videos/Reel-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+          <source src="videos/Reel-transcode.mp4" data-wf-ignore="true">
+          <source src="videos/Reel-transcode.webm" data-wf-ignore="true">
+        </video></div>
     </div>
   </div>
   <div class="container is--logos">
@@ -211,64 +165,94 @@ height: 100vh !important;
       </div>
       <div class="grid_item _10grid"></div>
     </div>
-    <div class="is--problem-solution container">
+  </div>
+  <div id="services" class="is--problem-solution container">
+    <div class="grid is--probl-solution">
+      <div class="grid_item _10grid grid-item-hide"></div>
+      <div class="grid_item _70grid full-grid">
+        <div class="h2-text-div">
+          <h2 id="scroll-in" text-split="" words-slide-from-right="" class="text-size-h2">We don’t just create beautiful content, we make sure it drives real world results for your business.</h2>
+        </div>
+      </div>
+      <div class="grid_item _40grid grid-item-hide"></div>
+    </div>
+    <div class="services">
       <div class="grid is--probl-solution">
-        <div class="grid_item _10grid"></div>
+        <div class="grid_item _40grid"></div>
         <div class="grid_item _70grid">
-          <div class="h2-text-div">
-            <h2 id="scroll-in" text-split="" words-slide-from-right="" class="text-size-h2">We don’t just create beautiful content, we make sure it drives real world results for your business.</h2>
+          <div class="h2-text-div services-title">
+            <h2 id="scroll-in" class="text-size-h2 servicess-title">Services</h2>
           </div>
         </div>
         <div class="grid_item _40grid"></div>
       </div>
-      <div class="services">
-        <div class="grid is--probl-solution">
-          <div class="grid_item _40grid"></div>
-          <div class="grid_item _70grid">
-            <div class="h2-text-div services-title">
-              <h2 id="scroll-in" class="text-size-h2">Services</h2>
-            </div>
+      <div class="grid">
+        <div class="grid_item _40grid"></div>
+        <div class="grid_item _20grid">
+          <div class="features">
+            <p>Photography</p>
+            <p>Content distribution</p>
+            <p>Creative strategy</p>
           </div>
-          <div class="grid_item _40grid"></div>
         </div>
-        <div class="grid">
-          <div class="grid_item _40grid"></div>
-          <div class="grid_item _20grid">
-            <div class="features">
-              <p>Photography</p>
-              <p>Content distribution</p>
-              <p>Creative strategy</p>
-            </div>
+        <div class="grid_item _20grid">
+          <div class="features">
+            <p>Photography</p>
+            <p>Content distribution</p>
+            <p>Creative strategy</p>
           </div>
-          <div class="grid_item _20grid">
-            <div class="features">
-              <p>Photography</p>
-              <p>Content distribution</p>
-              <p>Creative strategy</p>
-            </div>
-          </div>
-          <div class="grid_item _20grid">
-            <div class="features">
-              <p>Photography</p>
-              <p>Content distribution</p>
-              <p>Creative strategy</p>
-            </div>
-          </div>
-          <div class="grid_item _20grid"></div>
         </div>
+        <div class="grid_item _20grid">
+          <div class="features">
+            <p>Photography</p>
+            <p>Content distribution</p>
+            <p>Creative strategy</p>
+          </div>
+        </div>
+        <div class="grid_item _20grid"></div>
       </div>
     </div>
   </div>
   <div class="is--projects">
-    <div class="container">
+    <div id="work" class="container">
       <div class="grid">
-        <div class="grid_item _40grid">
-          <a data-w-id="f3c2dedf-8f35-5e89-ad57-1ad088c91ca7" href="#" class="project w-inline-block">
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="b519a50c-cbed-209c-f6de-fe685cb58205" href="topo-chico.html" class="project w-inline-block">
+            <h4 class="text-size-h4 project-title">TOPO CHICO</h4>
+            <div class="project-thumbnail">
+              <div style="opacity:0" class="project-overlay-hover">
+                <div class="case-study-info">
+                  <h3 class="text-size-h3">Topo Chico</h3>
+                </div>
+                <div class="case-study-btn">
+                  <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
+                </div>
+              </div><img src="images/topo.png" loading="lazy" alt="" class="project-img">
+            </div>
+          </a>
+        </div>
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="6f9a8132-2316-9e7d-985e-fedfc0786c18" href="kingship-studio.html" class="project w-inline-block">
+            <h4 class="text-size-h4 project-title">Kingship Studio</h4>
+            <div class="project-thumbnail">
+              <div style="opacity:0" class="project-overlay-hover">
+                <div class="case-study-info">
+                  <h3 class="text-size-h3">Kingship Studio</h3>
+                </div>
+                <div class="case-study-btn">
+                  <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
+                </div>
+              </div><img src="images/Kingship-studio.png" loading="lazy" alt="" class="project-img">
+            </div>
+          </a>
+        </div>
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="f3c2dedf-8f35-5e89-ad57-1ad088c91ca7" href="coba-x-corey-pane.html" class="project w-inline-block">
             <h4 class="text-size-h4 project-title">COBA X COREY PANE</h4>
             <div class="project-thumbnail">
               <div style="opacity:0" class="project-overlay-hover">
                 <div class="case-study-info">
-                  <h3 class="text-size-h3">Title of the project here</h3>
+                  <h3 class="text-size-h3">COBA X COREY PANE</h3>
                 </div>
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
@@ -277,13 +261,43 @@ height: 100vh !important;
             </div>
           </a>
         </div>
-        <div class="grid_item _40grid">
-          <a data-w-id="9ba3f7a7-85cb-8e83-f225-b6b4004bb2cf" href="#" class="project w-inline-block">
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="ba3568e0-1f4b-da93-7883-a4473f32dd8f" href="the-glass-farmhouse.html" class="project w-inline-block">
+            <h4 class="text-size-h4 project-title">The glass farmhouse</h4>
+            <div class="project-thumbnail">
+              <div style="opacity:0" class="project-overlay-hover">
+                <div class="case-study-info">
+                  <h3 class="text-size-h3">THE GLASS FARMHOUSE</h3>
+                </div>
+                <div class="case-study-btn">
+                  <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
+                </div>
+              </div><img src="images/the-glass-farmhouse.png" loading="lazy" width="1250" alt="" class="project-img">
+            </div>
+          </a>
+        </div>
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="fdd94cbc-d82b-6ec0-80e7-8256e5db1005" href="plain-goods.html" class="project w-inline-block">
+            <h4 class="text-size-h4 project-title">Plain Goods</h4>
+            <div class="project-thumbnail">
+              <div style="opacity:0" class="project-overlay-hover">
+                <div class="case-study-info">
+                  <h3 class="text-size-h3">Plain Goods</h3>
+                </div>
+                <div class="case-study-btn">
+                  <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
+                </div>
+              </div><img src="images/plain-goods_1.png" loading="lazy" alt="" class="project-img">
+            </div>
+          </a>
+        </div>
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="9ba3f7a7-85cb-8e83-f225-b6b4004bb2cf" href="fall-by-the-ocean.html" class="project w-inline-block">
             <h4 class="text-size-h4 project-title">Fall by the ocean</h4>
             <div class="project-thumbnail">
               <div style="opacity:0" class="project-overlay-hover">
                 <div class="case-study-info">
-                  <h3 class="text-size-h3">Title of the project here</h3>
+                  <h3 class="text-size-h3">FALL BY THE OCEAN</h3>
                 </div>
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
@@ -292,13 +306,13 @@ height: 100vh !important;
             </div>
           </a>
         </div>
-        <div class="grid_item _40grid">
-          <a data-w-id="493b5cb4-b4a6-db4f-b02a-98cc57eb1ee3" href="#" class="project w-inline-block">
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="493b5cb4-b4a6-db4f-b02a-98cc57eb1ee3" href="corey-pane.html" class="project w-inline-block">
             <h4 class="text-size-h4 project-title">Corey pane</h4>
             <div class="project-thumbnail">
               <div style="opacity:0" class="project-overlay-hover">
                 <div class="case-study-info">
-                  <h3 class="text-size-h3">Title of the project here</h3>
+                  <h3 class="text-size-h3">COREY PANE</h3>
                 </div>
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
@@ -307,48 +321,33 @@ height: 100vh !important;
             </div>
           </a>
         </div>
-        <div class="grid_item _40grid">
-          <a data-w-id="ba3568e0-1f4b-da93-7883-a4473f32dd8f" href="#" class="project w-inline-block">
-            <h4 class="text-size-h4 project-title">Corey pane</h4>
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="bf0679b1-be10-93b3-43a8-1610e281a514" href="relais-chateaux-hotels.html" class="project w-inline-block">
+            <h4 class="text-size-h4 project-title">Relais &amp; Chateaux Hotels</h4>
             <div class="project-thumbnail">
               <div style="opacity:0" class="project-overlay-hover">
                 <div class="case-study-info">
-                  <h3 class="text-size-h3">Title of the project here</h3>
+                  <h3 class="text-size-h3">Relais &amp; Chateaux Hotels</h3>
                 </div>
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/corey-pane.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/chateaux.png" loading="lazy" alt="" class="project-img">
             </div>
           </a>
         </div>
-        <div class="grid_item _40grid">
-          <a data-w-id="b519a50c-cbed-209c-f6de-fe685cb58205" href="#" class="project w-inline-block">
-            <h4 class="text-size-h4 project-title">Corey pane</h4>
+        <div class="grid_item _40grid full-grid">
+          <a data-w-id="0203af65-6416-e6f1-c9c0-5a0055bcb845" href="80ft-mural.html" class="project w-inline-block">
+            <h4 class="text-size-h4 project-title">Creating an 80FT Mural</h4>
             <div class="project-thumbnail">
               <div style="opacity:0" class="project-overlay-hover">
                 <div class="case-study-info">
-                  <h3 class="text-size-h3">Title of the project here</h3>
+                  <h3 class="text-size-h3">Creating an 80FT mural</h3>
                 </div>
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/corey-pane.png" loading="lazy" alt="" class="project-img">
-            </div>
-          </a>
-        </div>
-        <div class="grid_item _40grid">
-          <a data-w-id="fdd94cbc-d82b-6ec0-80e7-8256e5db1005" href="#" class="project w-inline-block">
-            <h4 class="text-size-h4 project-title">Corey pane</h4>
-            <div class="project-thumbnail">
-              <div style="opacity:0" class="project-overlay-hover">
-                <div class="case-study-info">
-                  <h3 class="text-size-h3">Title of the project here</h3>
-                </div>
-                <div class="case-study-btn">
-                  <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
-                </div>
-              </div><img src="images/corey-pane.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/80ft.png" loading="lazy" alt="" class="project-img">
             </div>
           </a>
         </div>
@@ -356,10 +355,10 @@ height: 100vh !important;
     </div>
   </div>
   <div class="is--footer">
-    <div class="container">
+    <div id="contact" class="container footer">
       <div class="upper-footer">
         <h3 class="text-size-h4 text-footer-tag">READY TO TAKE YOU BRAND TO THE NEXT LEVEL?</h3>
-        <a href="#" class="cta-footer w-inline-block">
+        <a href="freeflow-book-a-call.html" class="cta-footer w-inline-block">
           <h2 class="text-size-h1 text-footer-h">Let’s work together</h2><img src="images/arrow-icon-big.png" loading="lazy" alt="" class="image">
         </a>
       </div>
@@ -367,20 +366,20 @@ height: 100vh !important;
         <div class="line"></div>
         <div class="grid">
           <div class="grid_item _10grid"></div>
-          <div class="grid_item _30grid">
+          <div class="grid_item _30grid full-grid">
             <div class="footer-row">
               <h4 class="footer-title">CONTACT<br>INFORMATION —</h4>
               <div class="sub-row">
-                <p class="white-text p-footer">Feel free to reach out to me any time.          I prefer to talk over email, especially since we may be a few time zones away.</p>
+                <p class="white-text p-footer">Feel free to reach out to me any time.  I prefer to talk over email, especially since we may be a few time zones away.</p>
                 <div class="div-block-2">
-                  <a href="#" class="footer-link">E: freeflow@gmail.com</a>
-                  <a href="#" class="footer-link">P: +32 242 584 321</a>
+                  <a href="mailto:hunter@freeflowsocial.com" class="footer-link">E: hunter@freeflowsocial.cam</a>
+                  <a href="#" class="footer-link phone">P: +32 242 584 321</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="grid_item _20grid"></div>
-          <div class="grid_item _20grid">
+          <div class="grid_item _20grid hide-grid"></div>
+          <div class="grid_item _20grid full-grid">
             <div class="footer-row">
               <h4 class="footer-title">LATEST<br>PROJECTS —</h4>
               <div class="sub-row">
@@ -398,7 +397,7 @@ height: 100vh !important;
               <p class="white-text p-footer">I usually work on some projects but let’s get in touch!</p>
             </div>
           </div>
-          <div class="grid_item _20grid">
+          <div class="grid_item _20grid full-grid">
             <div class="footer-row">
               <h4 class="footer-title">Follow<br>me on —</h4>
               <div class="sub-row">
