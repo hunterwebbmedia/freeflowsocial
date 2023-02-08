@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Feb 07 2023 23:33:35 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Feb 08 2023 17:27:20 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63cfad8ec43ad366d0ff2528" data-wf-site="63cfad8ec43ad340dcff2519">
 <head>
   <meta charset="utf-8">
@@ -25,13 +25,22 @@ html.w-editor [text-split] {opacity: 1;}
   transform-origin: bottom;
 }
 .typed-cursor {
-	text-align: center;
+				text-align: center;
 				font-family: "Questrial";
         opacity: 1;
         animation: blink 1s infinite;
         color: #fff;
         font-size: 5em;
-    }
+ }
+ .typedjs {
+ 				text-align: center;
+ }
+ /* Min Font Size */
+@media screen and (max-width:991px) {
+.typed-cursor {
+        font-size: 42px;
+ }
+}
     @keyframes blink {
         0% {
             opacity: 1;
@@ -160,11 +169,11 @@ height: 100vh !important;
   </div>
   <div class="container is--logos">
     <div class="grid">
-      <div class="grid_item _10grid"></div>
-      <div class="grid_item _80grid">
+      <div class="grid_item _10grid grid-item-hide"></div>
+      <div class="grid_item _80grid logos-grid">
         <div class="logos"><img src="images/plain-goods.png" loading="lazy" width="66" alt="" class="logo1"><img src="images/bird-code.png" loading="lazy" width="45.5" alt="" class="logo2"><img src="images/topo-chico.png" loading="lazy" width="95.5" alt="" class="logo3"><img src="images/relais-chateaux.png" loading="lazy" width="41" alt="" class="logo4"><img src="images/specht.png" loading="eager" width="68.5" alt="" class="logo5"><img src="images/s.png" loading="lazy" width="18.5" alt="" class="logo6"><img src="images/winvian-farm.png" loading="lazy" width="93" alt="" class="logo7"></div>
       </div>
-      <div class="grid_item _10grid"></div>
+      <div class="grid_item _10grid grid-item-hide"></div>
     </div>
   </div>
   <div id="services" class="is--problem-solution container">
@@ -172,14 +181,14 @@ height: 100vh !important;
       <div class="grid_item _10grid grid-item-hide"></div>
       <div class="grid_item _70grid full-grid">
         <div class="h2-text-div">
-          <h2 id="scroll-in" text-split="" words-slide-from-right="" class="text-size-h2">Our content doesn't just look the part, we take the time to make sure it drives real world results for your brand.</h2>
+          <h2 id="scroll-in" text-split="" words-slide-from-right="" class="text-size-h2">Our content doesn&#x27;t just look the part, we take the time to make sure it drives real world results for your brand.              </h2>
         </div>
       </div>
       <div class="grid_item _40grid grid-item-hide"></div>
     </div>
     <div class="services">
       <div class="grid is--probl-solution">
-        <div class="grid_item _40grid"></div>
+        <div class="grid_item _40grid grid-item-hide"></div>
         <div class="grid_item _70grid">
           <div class="h2-text-div services-title">
             <h2 id="scroll-in" class="text-size-h2 servicess-title">Services</h2>
@@ -188,29 +197,29 @@ height: 100vh !important;
         <div class="grid_item _40grid"></div>
       </div>
       <div class="grid">
-        <div class="grid_item _40grid"></div>
-        <div class="grid_item _20grid">
+        <div class="grid_item _40grid grid-item-hide"></div>
+        <div class="grid_item _20grid item-services">
           <div class="features">
-            <p>Creative Strategy</p>
-            <p>Video Production</p>
+            <p>Creative strategy</p>
+            <p>video production</p>
             <p>Photography</p>
           </div>
         </div>
-        <div class="grid_item _20grid">
+        <div class="grid_item _20grid item-services">
           <div class="features">
             <p>Custom Set Builds</p>
             <p>On Location Shoots</p>
             <p>Professional Actors/Models</p>
           </div>
         </div>
-        <div class="grid_item _20grid">
+        <div class="grid_item _20grid item-services">
           <div class="features">
             <p>Post Production</p>
-            <p>Performance Tracking</p>
             <p>Content Optimization</p>
+            <p>Performance Tracking</p>
           </div>
         </div>
-        <div class="grid_item _20grid"></div>
+        <div class="grid_item _20grid hide-grid"></div>
       </div>
     </div>
   </div>
@@ -358,9 +367,9 @@ height: 100vh !important;
   <div class="is--footer">
     <div id="contact" class="container footer">
       <div class="upper-footer">
-        <h3 class="text-size-h4 text-footer-tag">LOOKING TO ELEVATE YOUR BRAND?</h3>
+        <h3 class="text-size-h4 text-footer-tag">READY TO TAKE YOU BRAND TO THE NEXT LEVEL?</h3>
         <a href="freeflow-book-a-call.html" class="cta-footer w-inline-block">
-          <h2 class="text-size-h1 text-footer-h">Let’s get started.</h2><img src="images/arrow-icon-big.png" loading="lazy" alt="" class="image">
+          <h2 class="text-size-h1 text-footer-h">Let’s work together</h2><img src="images/arrow-icon-big.png" loading="lazy" alt="" class="image">
         </a>
       </div>
       <div class="lower-footer">
@@ -374,6 +383,7 @@ height: 100vh !important;
                 <p class="white-text p-footer">Please send us an email with any questions and we will be in touch within 24 hours.</p>
                 <div class="div-block-2">
                   <a href="mailto:hunter@freeflowsocial.com" class="footer-link">E: hunter@freeflowsocial.cam</a>
+                  <a href="#" class="footer-link">©2021 ALL RIGHTS RESERVED</a>
                   <a href="#" class="footer-link phone">P: +32 242 584 321</a>
                 </div>
               </div>
@@ -382,29 +392,29 @@ height: 100vh !important;
           <div class="grid_item _20grid hide-grid"></div>
           <div class="grid_item _20grid full-grid">
             <div class="footer-row">
-              <h4 class="footer-title">FEATURED<br>PROJECTS —</h4>
+              <h4 class="footer-title">LATEST<br>PROJECTS —</h4>
               <div class="sub-row">
                 <div class="div-block-2">
-                  <a href="#" class="footer-link">Coba X Corey Pane</a>
-                  <a href="#" class="footer-link">Kingship Studios</a>
-                  <a href="#" class="footer-link">The Glass Farmhouse</a>
+                  <a href="coba-x-corey-pane.html" class="footer-link">Coba X Corey Pane</a>
+                  <a href="kingship-studio.html" class="footer-link">Kingship Studios</a>
+                  <a href="the-glass-farmhouse.html" class="footer-link">The Glass Farmhouse</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="grid_item _20grid">
             <div class="footer-row">
-              <h4 class="footer-title">PRODUCTION CAPABILITIES —</h4>
+              <h4 class="footer-title">CURRENT  AVAILABILITY —</h4>
               <p class="white-text p-footer">All video projects are filmed in up to 6K resolution and photos are taken at up to 50MP+. If you have additional requirements for your project please let us know.</p>
             </div>
           </div>
           <div class="grid_item _20grid full-grid">
             <div class="footer-row">
-              <h4 class="footer-title">Follow<br>us on —</h4>
+              <h4 class="footer-title">Follow<br>me on —</h4>
               <div class="sub-row">
                 <div class="div-block-2">
-                  <a href="#" class="footer-link">Instagram: @huntrwebb</a>
-                  <a href="#" class="footer-link">LinkedIn: Freeflow Social</a>
+                  <a href="https://www.instagram.com/huntrwebb/" target="_blank" class="footer-link">Instagram</a>
+                  <a href="https://www.linkedin.com/company/freeflowsocial/" target="_blank" class="footer-link">LinkedIn</a>
                 </div>
               </div>
             </div>
@@ -419,7 +429,7 @@ height: 100vh !important;
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
 let typed = new Typed('.typedjs', {
-  strings: ["creative strategy^1000", "scroll-stopping visuals^1000", "data driven results^1000", "freeflow^1000" ],
+  strings: ["creative strategy^2000", "scroll-stopping visuals^2000", "data driven results^2000", "freeflow^2000"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 0,
