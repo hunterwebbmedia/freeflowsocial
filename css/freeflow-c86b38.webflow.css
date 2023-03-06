@@ -816,7 +816,7 @@ blockquote {
 
 .is--footer {
   min-height: 100vh;
-  background-color: #0f0f0f;
+  background-color: #f9fafa;
 }
 
 .upper-footer {
@@ -1454,6 +1454,10 @@ blockquote {
     font-size: 28px;
   }
 
+  .text-size-h4 {
+    font-size: 24px;
+  }
+
   .text-size-h4.logo {
     font-size: 16px;
   }
@@ -1464,6 +1468,10 @@ blockquote {
 
   .text-size-h4.text-footer-tag {
     font-size: 14px;
+  }
+
+  .text-size-h4.nav-link {
+    margin-top: 32px;
   }
 
   .grid_item._10grid.grid-item-hide {
@@ -1553,11 +1561,16 @@ blockquote {
   .navbar {
     position: static;
     height: 74px;
+    mix-blend-mode: normal;
   }
 
   .nav-container {
     padding-right: 0em;
     padding-left: 0em;
+  }
+
+  .nav-link.text-size-h4 {
+    font-size: 24px;
   }
 
   .logos {
@@ -1609,6 +1622,20 @@ blockquote {
   .project {
     width: 100vw;
     margin-bottom: 64px;
+  }
+
+  .nav-menu {
+    width: 75vw;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 10%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: #0f0f0f;
   }
 
   .project-thumbnail {
@@ -1690,10 +1717,15 @@ blockquote {
 
   .menu-button {
     margin-right: -18px;
+    color: #0f0f0f;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
   }
 
   .icon {
-    color: #f9fafa;
+    color: #0f0f0f;
   }
 
   .brand {
@@ -1823,8 +1855,9 @@ blockquote {
 
   .text-size-h4.logo {
     padding-bottom: 0px;
-    color: #f9fafa;
+    color: #0f0f0f;
     font-size: 20px;
+    mix-blend-mode: normal;
   }
 
   .text-size-h4.project-title {
@@ -1835,6 +1868,10 @@ blockquote {
 
   .text-size-h4.text-footer-tag {
     font-size: 16px;
+  }
+
+  .text-size-h4.nav-link {
+    padding-bottom: 16px;
   }
 
   .grid_item._20grid.item-services {
@@ -1900,6 +1937,8 @@ blockquote {
   }
 
   .nav-menu {
+    top: 23vh;
+    right: 0px;
     width: 75%;
     height: 100vh;
     padding-top: 96px;
@@ -1998,7 +2037,6 @@ blockquote {
   }
 
   .icon {
-    color: #0f0f0f;
     font-size: 32px;
   }
 
