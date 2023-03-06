@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Wed Feb 08 2023 17:27:20 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Mar 06 2023 13:25:43 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63cfad8ec43ad366d0ff2528" data-wf-site="63cfad8ec43ad340dcff2519">
 <head>
   <meta charset="utf-8">
@@ -18,6 +18,10 @@
   <style>
 [text-split] {opacity: 0;}
 html.w-editor [text-split] {opacity: 1;}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .word {
 	overflow: hidden;
   padding-bottom: 0.1em;
@@ -130,9 +134,9 @@ height: 100vh !important;
 }
 </style>
   </div>
-  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar hide w-nav">
     <div class="container is--navbar w-container">
-      <div class="div-block">
+      <div class="nav-container">
         <a href="#" class="w-nav-brand">
           <p class="text-size-h4 logo">FREEFLOW</p>
         </a>
@@ -147,7 +151,24 @@ height: 100vh !important;
       </div>
     </div>
   </div>
-  <div class="video-bg-div">
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+    <div class="container is--navbar w-container">
+      <div class="nav-container">
+        <a href="#" class="brand w-nav-brand">
+          <p class="text-size-h4 logo">FREEFLOW</p>
+        </a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <a href="#services" class="text-size-h4 w-nav-link">Services</a>
+          <a href="#work" class="text-size-h4 w-nav-link">Work</a>
+          <a href="#contact" class="nav-link text-size-h4 w-nav-link">Contact</a>
+        </nav>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div data-w-id="0a879b6a-18e8-8712-30ec-a9de8d4561e6" class="video-bg-div">
     <div class="is--hero">
       <div class="text--on-bg">
         <div class="bg-tag">
@@ -169,39 +190,40 @@ height: 100vh !important;
   </div>
   <div class="container is--logos">
     <div class="grid">
-      <div class="grid_item _10grid grid-item-hide"></div>
-      <div class="grid_item _80grid logos-grid">
-        <div class="logos"><img src="images/plain-goods.png" loading="lazy" width="66" alt="" class="logo1"><img src="images/bird-code.png" loading="lazy" width="45.5" alt="" class="logo2"><img src="images/topo-chico.png" loading="lazy" width="95.5" alt="" class="logo3"><img src="images/relais-chateaux.png" loading="lazy" width="41" alt="" class="logo4"><img src="images/specht.png" loading="eager" width="68.5" alt="" class="logo5"><img src="images/s.png" loading="lazy" width="18.5" alt="" class="logo6"><img src="images/winvian-farm.png" loading="lazy" width="93" alt="" class="logo7"></div>
+      <div class="grid_item _100grid">
+        <div class="logos"><img src="images/plain-goods.png" loading="lazy" width="66" alt="Plain goods logo" class="logo1"><img src="images/bird-code.png" loading="lazy" width="45.5" alt="Bird Code Logo" class="logo2"><img src="images/topo-chico.png" loading="lazy" width="95.5" alt="Topo Chico logo" class="logo3"><img src="images/relais-chateaux.png" loading="lazy" width="41" alt="Relais and Chateaux logo" class="logo4"><img src="images/specht.png" loading="eager" width="68.5" alt="Specht logo" class="logo5"><img src="images/s.png" loading="lazy" width="18.5" alt="S logo" class="logo6"><img src="images/winvian-farm.png" loading="lazy" width="93" alt="Winvian Farm" class="logo7"></div>
       </div>
-      <div class="grid_item _10grid grid-item-hide"></div>
+    </div>
+    <div data-w-id="811d0708-48c6-de51-9de9-354626895d24" style="-webkit-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="horizontal-marquee">
+      <div class="inner-marcquee"><img src="images/plain-goods.png" loading="lazy" width="66" alt="Plain goods logo" class="logo1"><img src="images/bird-code.png" loading="lazy" width="45.5" alt="Bird Code Logo" class="logo2"><img src="images/topo-chico.png" loading="lazy" width="95.5" alt="Topo Chico logo" class="logo3"><img src="images/relais-chateaux.png" loading="lazy" width="41" alt="Relais and Chateaux logo" class="logo4"><img src="images/specht.png" loading="eager" width="68.5" alt="Specht logo" class="logo5"><img src="images/s.png" loading="lazy" width="18.5" alt="S logo" class="logo6"><img src="images/winvian-farm.png" loading="lazy" width="93" alt="Winvian Farm" class="logo7"></div>
+      <div class="inner-marcquee"><img src="images/plain-goods.png" loading="lazy" width="66" alt="Plain goods logo" class="logo1"><img src="images/bird-code.png" loading="lazy" width="45.5" alt="Bird Code Logo" class="logo2"><img src="images/topo-chico.png" loading="lazy" width="95.5" alt="Topo Chico logo" class="logo3"><img src="images/relais-chateaux.png" loading="lazy" width="41" alt="Relais and Chateaux logo" class="logo4"><img src="images/specht.png" loading="eager" width="68.5" alt="Specht logo" class="logo5"><img src="images/s.png" loading="lazy" width="18.5" alt="S logo" class="logo6"><img src="images/winvian-farm.png" loading="lazy" width="93" alt="Winvian Farm" class="logo7"></div>
     </div>
   </div>
   <div id="services" class="is--problem-solution container">
     <div class="grid is--probl-solution">
-      <div class="grid_item _10grid grid-item-hide"></div>
-      <div class="grid_item _70grid full-grid">
+      <div class="grid_item _10grid grid-item-hide hidee"></div>
+      <div class="grid_item full-grid">
         <div class="h2-text-div">
-          <h2 id="scroll-in" text-split="" words-slide-from-right="" class="text-size-h2">Our content doesn&#x27;t just look the part, we take the time to make sure it drives real world results for your brand.              </h2>
+          <h2 class="text-size-h2">Our content doesn&#x27;t just look the part, we take the time to make sure it drives real world results for your brand.           </h2>
         </div>
       </div>
       <div class="grid_item _40grid grid-item-hide"></div>
     </div>
     <div class="services">
       <div class="grid is--probl-solution">
-        <div class="grid_item _40grid grid-item-hide"></div>
-        <div class="grid_item _70grid">
+        <div class="grid_item _60grid hide-grid"></div>
+        <div class="grid_item _40grid">
           <div class="h2-text-div services-title">
-            <h2 id="scroll-in" class="text-size-h2 servicess-title">Services</h2>
+            <h2 class="text-size-h2 servicess-title">Services</h2>
           </div>
         </div>
-        <div class="grid_item _40grid"></div>
       </div>
       <div class="grid">
-        <div class="grid_item _40grid grid-item-hide"></div>
+        <div class="grid_item _60grid hide-grid"></div>
         <div class="grid_item _20grid item-services">
           <div class="features">
             <p>Creative strategy</p>
-            <p>video production</p>
+            <p>Video production</p>
             <p>Photography</p>
           </div>
         </div>
@@ -209,7 +231,7 @@ height: 100vh !important;
           <div class="features">
             <p>Custom Set Builds</p>
             <p>On Location Shoots</p>
-            <p>Professional Actors/Models</p>
+            <p>Professional Actors</p>
           </div>
         </div>
         <div class="grid_item _20grid item-services">
@@ -219,16 +241,16 @@ height: 100vh !important;
             <p>Performance Tracking</p>
           </div>
         </div>
-        <div class="grid_item _20grid hide-grid"></div>
+        <div class="grid_item"></div>
       </div>
     </div>
   </div>
   <div class="is--projects">
-    <div id="work" class="container">
+    <div id="work" class="container projects-container">
       <div class="grid">
         <div class="grid_item _40grid full-grid">
           <a data-w-id="b519a50c-cbed-209c-f6de-fe685cb58205" href="topo-chico.html" class="project w-inline-block">
-            <h4 class="text-size-h4 project-title">TOPO CHICO</h4>
+            <h3 class="text-size-h4 project-title">TOPO CHICO</h3>
             <div class="project-thumbnail">
               <div style="opacity:0" class="project-overlay-hover">
                 <div class="case-study-info">
@@ -237,7 +259,7 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/topo.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/topo-min.png" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Topo Chico" class="project-img">
             </div>
           </a>
         </div>
@@ -252,7 +274,8 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/Kingship-studio.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/Kingship-studio-min.png" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Kingship Studio
+" class="project-img">
             </div>
           </a>
         </div>
@@ -267,7 +290,8 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/coba-x-corey.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/coba-x-corey-min.png" loading="eager" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Coba and Corey Pane
+" class="project-img">
             </div>
           </a>
         </div>
@@ -282,7 +306,7 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/the-glass-farmhouse.png" loading="lazy" width="1250" alt="" class="project-img">
+              </div><img src="images/the-glass-farmhouse-min.png" loading="eager" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" width="1250" alt="The glass farmhouse" class="project-img">
             </div>
           </a>
         </div>
@@ -297,7 +321,7 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/plain-goods_1.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/plain-goods_1-min.png" loading="eager" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Plain Goods" class="project-img">
             </div>
           </a>
         </div>
@@ -312,7 +336,7 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/fall-by-ocean.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/fall-by-ocean-min.png" loading="eager" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Fall by the ocean" class="project-img">
             </div>
           </a>
         </div>
@@ -327,7 +351,7 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/corey-pane.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/corey-pane-min.png" loading="eager" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Corey Pane" class="project-img">
             </div>
           </a>
         </div>
@@ -342,7 +366,7 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/chateaux.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/chateaux-min.png" loading="eager" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Chateaux" class="project-img">
             </div>
           </a>
         </div>
@@ -357,33 +381,33 @@ height: 100vh !important;
                 <div class="case-study-btn">
                   <h4 class="text-size-h4 h4-project">visit project</h4><img src="images/arrow.png" loading="lazy" alt="" class="arrow-projects">
                 </div>
-              </div><img src="images/80ft.png" loading="lazy" alt="" class="project-img">
+              </div><img src="images/80ft-min.png" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="80ft mural
+" class="project-img">
             </div>
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="is--footer">
+  <div data-w-id="3c525d28-8a66-a92c-ee1a-afc114c7fd50" class="is--footer">
     <div id="contact" class="container footer">
       <div class="upper-footer">
-        <h3 class="text-size-h4 text-footer-tag">READY TO TAKE YOU BRAND TO THE NEXT LEVEL?</h3>
-        <a href="freeflow-book-a-call.html" class="cta-footer w-inline-block">
+        <h3 class="text-size-h4 text-footer-tag">READY TO TAKE YOUR BRAND TO THE NEXT LEVEL?</h3>
+        <a data-w-id="6da0c706-87ae-ea25-d8c1-1ba4754520e5" href="freeflow-book-a-call.html" class="cta-footer w-inline-block">
           <h2 class="text-size-h1 text-footer-h">Let’s work together</h2><img src="images/arrow-icon-big.png" loading="lazy" alt="" class="image">
         </a>
       </div>
       <div class="lower-footer">
         <div class="line"></div>
         <div class="grid">
-          <div class="grid_item _10grid"></div>
           <div class="grid_item _30grid full-grid">
             <div class="footer-row">
-              <h4 class="footer-title">CONTACT<br>INFORMATION —</h4>
+              <h3 class="footer-title">CONTACT<br>INFORMATION —</h3>
               <div class="sub-row">
                 <p class="white-text p-footer">Please send us an email with any questions and we will be in touch within 24 hours.</p>
                 <div class="div-block-2">
-                  <a href="mailto:hunter@freeflowsocial.com" class="footer-link">E: hunter@freeflowsocial.cam</a>
-                  <a href="#" class="footer-link">©2023 ALL RIGHTS RESERVED</a>
+                  <a href="mailto:hunter@freeflowsocial.com" class="footer-link">E-mail: hunter@freeflowsocial.cam</a>
+                  <a href="#" class="footer-link copyright">©2023 ALL RIGHTS RESERVED</a>
                   <a href="#" class="footer-link phone">P: +32 242 584 321</a>
                 </div>
               </div>
@@ -402,9 +426,9 @@ height: 100vh !important;
               </div>
             </div>
           </div>
-          <div class="grid_item _20grid">
+          <div class="grid_item _30grid full-grid">
             <div class="footer-row">
-              <h4 class="footer-title">CAPABILITIES —</h4>
+              <h4 class="footer-title">Capabilities<br>—</h4>
               <p class="white-text p-footer">All video projects are filmed in up to 6K resolution and photos are taken at up to 50MP+. If you have additional requirements for your project please let us know.</p>
             </div>
           </div>
@@ -426,10 +450,34 @@ height: 100vh !important;
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63cfad8ec43ad340dcff2519" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
+// Scrolling library
+const lenis = new Lenis({
+  duration: 2.5,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
+  direction: 'vertical', // vertical, horizontal
+  gestureDirection: 'vertical', // vertical, horizontal, both
+  smooth: true,
+  mouseMultiplier: 1,
+  smoothTouch: false,
+  touchMultiplier: 2,
+  infinite: false,
+})
+//get scroll value
+lenis.on('scroll', ({ scroll, limit, velocity, direction, progress }) => {
+  console.log({ scroll, limit, velocity, direction, progress })
+})
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+requestAnimationFrame(raf)
+</script>
+  <script>
 let typed = new Typed('.typedjs', {
-  strings: ["stunning visuals^2000", "powerful storytelling^2000", "real world results^2000", "freeflow social^2000"],
+  strings: ["stunning visuals^2000", "powerful storytelling^2000", "real world results^2000", "freeflow^2000"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 0,
