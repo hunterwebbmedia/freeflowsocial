@@ -1649,6 +1649,7 @@ blockquote {
 
   .is--footer {
     min-height: 0vh;
+    background-color: #0f0f0f;
   }
 
   .upper-footer {
