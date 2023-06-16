@@ -1155,6 +1155,7 @@ p {
 
 .service._2nd-service, .service._3rd-service {
   margin-top: 12em;
+  display: none;
 }
 
 .service-number-div {
@@ -1509,8 +1510,16 @@ p {
   right: 0%;
 }
 
+.modal.modal2 {
+  display: block;
+}
+
 .modal.hide {
   display: none;
+}
+
+.modal.modal3 {
+  display: block;
 }
 
 .talent-modal_background {
@@ -1804,6 +1813,10 @@ p {
 .html-embed {
   width: 100%;
   margin-top: 15vh;
+}
+
+.hide {
+  display: none;
 }
 
 html.w-mod-js [data-ix="ths13-scroll-line-move"] {
