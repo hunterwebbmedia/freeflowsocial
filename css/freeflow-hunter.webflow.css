@@ -1532,7 +1532,7 @@ strong {
   display: none;
 }
 
-.modal.modal3 {
+.modal.modal3, .modal.modal6 {
   display: block;
 }
 
@@ -1714,7 +1714,7 @@ strong {
 
 .overlay-project {
   z-index: 99;
-  opacity: 0;
+  opacity: 1;
   background-color: rgba(0, 0, 0, .6);
   flex-direction: column;
   justify-content: space-between;
