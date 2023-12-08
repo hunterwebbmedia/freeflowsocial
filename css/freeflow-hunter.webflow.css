@@ -1446,6 +1446,13 @@ strong {
   padding-right: 0;
 }
 
+.h3.founder {
+  text-align: left;
+  font-family: Generalsans Regular, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
 .step-description.grid-item {
   width: 24.125em;
 }
